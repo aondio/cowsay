@@ -1,0 +1,25 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "name": "Cowsay"
+        }
+      }
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/eu-west-1_aws-serverless-repository-alexaskillskitnodejsfact-1VREUAWKIGUK8"
+        },
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE",
+            "minimumTemplateVersion": "1.0"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
